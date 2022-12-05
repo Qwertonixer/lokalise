@@ -1,0 +1,165 @@
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 25px 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    margin-left: 51px;
+    flex-grow: 2;
+}
+
+.nav-menu li a {
+    margin-right: 57px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.nav-menu li a:hover {
+    text-decoration: underline;
+}
+
+.nav-menu li:last-child {
+    margin-right: 0;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.btns .btn {
+    min-width: 120px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.btn_login {
+    padding: 0px 36px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn_try_it {
+    background: #FF6336;
+    border: none;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.divider {
+    border: 1px solid #CCCCCC;
+}
+
+/* Main */
+
+.localization {
+    margin-top: 130px;
+    margin-bottom: 170px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    color: #000000;
+}
+
+.localization h1 {
+    max-width: 550px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+}
+
+.manage {
+    max-width: 470px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.comment {
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.content .btn {
+    min-width: 160px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.btn_demo {
+    margin-right: 10px;
+    color: #FFFFFF;
+    background: #FF6336;
+    border: none;
+}
+
+.btn_localization {
+    color: #000000;
+}
+
+/* Companies */
+
+.companies {
+    background: #FF9C7D;
+    padding-top: 110px;
+    padding-bottom: 120px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.companies h2 {
+    margin: 0 auto;
+    margin-bottom: 80px;
+    max-width: 720px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+}
+
+.container .logo_group {
+    display: flex;
+    justify-content: space-between;
+}
