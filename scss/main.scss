@@ -1,0 +1,33 @@
+@import '_header';
+@import '_main';
+@import '_companies';
+@import '_control_localize';
+@import '_localize_items';
+@import '_boost';
+@import '_chef';
+@import '_lovely_software';
+@import '_work_tools';
+@import '_try_localization';
+@import '_footer';
+@import '_rights';
+
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+body {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+}
+.link {
+    color: #000000;
+    text-decoration: underline;
+}
+
+// @media screen and (max-width: 766px) {
+//     padding: 0 15px;
+// }

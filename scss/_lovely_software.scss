@@ -1,0 +1,63 @@
+.software {
+    background: #DABC98;
+    padding: 50px 0px 40px 0px;
+}
+.cake_block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.cake_text {
+    align-self: center;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    color: #000000;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.group ,
+.capterra {
+    align-self: center;
+    p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0.75px;
+        color: #000000;
+        margin-bottom: 30px;
+    }
+}
+.img_cake_group{
+    margin-bottom: 20px;
+}
+.img_capterra {
+    margin: 6px 0 20px 0;
+}
+.cake_stars {
+    margin-bottom: 15px;
+}
+.cake_img {
+    margin: 0 auto;
+}
+
+@media (min-width: 1089px) {
+    .box {
+        border-left: 1px solid black;
+        padding: 30px 0 23px 70px;
+    }
+    .software {
+        padding: 90px 0px 80px 0px;
+    }
+    .cake_block {
+        flex-direction: row;
+    }
+    .cake_text {
+        color: #000000;
+        max-width: 461px;
+    }
+    .cake_img {
+        margin: 0;
+    }
+}

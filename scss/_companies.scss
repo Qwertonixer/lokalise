@@ -1,0 +1,28 @@
+.companies {
+    background: #FF9C7D;
+    padding: 50px 0;
+    h2 {
+        margin: 0 auto;
+        margin-bottom: 80px;
+        max-width: 720px;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+        color: #000000;
+    }
+}
+.container .logo_group {
+    display: flex;
+    justify-content: space-around;
+}
+.logo_group {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    img {
+        flex: 1 0 120px;
+        max-width: 120px;
+        margin-bottom: 20px;
+    }
+}

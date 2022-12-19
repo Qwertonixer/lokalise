@@ -1,0 +1,111 @@
+.case_studies {
+    background: #EEEEEE;
+    padding-top: 50px;
+}
+.case_specialized {
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    h3 {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+    p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 30px;
+        max-width: 100%;
+    }
+    a {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 90px;
+        color: #000000;
+    }
+}
+.velo {
+    max-width: 40%;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+.foot_spec {
+    max-width: 80px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.collumns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #000000;
+    margin-bottom: 30px;
+    h4 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        margin: 21px 0;
+    }
+    li {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 15px;
+        margin-bottom: 15px;
+        justify-content: flex-end;
+        a {
+            color: #000000;
+        }
+    }
+}
+.collumn {
+    flex: 1 0 auto;
+}
+.collumns li:hover,
+.case_specialized a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 1089px) {
+    .case_studies {
+        padding-top: 90px;
+    }
+    .case_specialized p {
+            max-width: 290px;
+    }
+    .velo {
+        max-width: 300px;
+        margin-bottom: 30px;
+    }
+    .foot_spec {
+        max-width: 80px;
+        margin-bottom: 11px;
+    }
+    .info {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .collumns {
+        display: flex;
+        justify-content: space-between;
+        flex-basis: 65%;
+        h4 {
+            margin-bottom: 21px;
+        }
+        li {
+            max-width: 175px;
+            justify-content: flex-end;
+        }
+    }
+    .collumn {
+        width: 20%;
+    }
+}

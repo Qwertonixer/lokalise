@@ -1,0 +1,84 @@
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.logo {
+    padding: 15px 0;
+}
+.nav-menu li {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    a {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #000000;
+        &:hover {
+          text-decoration: underline;
+        }
+    }
+    &:last-child {
+            margin-right: 0;
+     }
+}
+.btns .btn {
+    min-width: 120px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+}
+.btn_login {
+    padding: 0px 36px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
+}
+.btn:hover,
+.btn_try button:hover,
+.btn_work_tools button:hover {
+    cursor: pointer;
+}
+.btn_try_it {
+    background: #FF6336;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.divider {
+    margin: 15px 0;
+    border: 1px solid #CCCCCC;
+}
+
+@media (min-width: 768px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        height: 160px;
+    }
+    .nav-menu {
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 1089px) {
+    .nav {
+        margin-left: 51px;
+        flex-grow: 2;
+    }
+    .nav-menu {
+    display: flex;
+    justify-content: flex-start;
+    li {
+        a {
+            margin-right: 57px;
+        }
+    }
+}
+}
