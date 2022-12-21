@@ -813,18 +813,25 @@
     padding-bottom: 43px;
   }
   .rights_foot {
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
+  }
+  .rights_foot .years {
+    flex-grow: 1;
+    margin-right: 75px;
+  }
+  .rights_foot .years p {
+    text-align: end;
+  }
+  .rights_foot .years p:first-child {
+    margin-right: 36px;
   }
   .workflow {
     max-width: 300px;
     margin: 0;
     margin-left: 14px;
-  }
-  .years {
-    flex-grow: 1;
-    text-align: end;
+    text-align: left;
   }
 }
 * {
